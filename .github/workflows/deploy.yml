@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["master"] # or "main" - check which one you use
+    branches: ["master"] # Ensure this matches your branch name
 
 permissions:
   contents: read
@@ -11,6 +11,9 @@ permissions:
 
 jobs:
   build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
