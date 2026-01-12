@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    { 
+      "id": "t1", 
+      "text": { 
+        "en": "Book the book store to check the view", 
+        "zh": "預約書店以觀賞景觀" 
+      }, 
+      "category": "document" 
+    },
+    { 
+      "id": "t2", 
+      "text": { 
+        "en": "Confirm Data SIM / Roaming is working in Shanghai", 
+        "zh": "確認上海數據上網卡/漫遊正常運作" 
+      }, 
+      "category": "tech" 
+    },
+    { 
+      "id": "t3", 
+      "text": { 
+        "en": "Download Alipay/WeChat Pay", 
+        "zh": "下載支付寶/微信支付" 
+      }, 
+      "category": "payment" 
+    },
+    { 
+      "id": "t4", 
+      "text": { 
+        "en": "Pack Power Adapter", 
+        "zh": "攜帶電源轉接器" 
+      }, 
+      "category": "packing" 
+    }
+  ]
+}

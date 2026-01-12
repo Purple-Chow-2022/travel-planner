@@ -1,6 +1,9 @@
 {
   "trip": {
+    "id": "shanghai-birthday-2026",
     "title": { "en": "Shanghai Birthday Trip 2026", "zh": "2026 上海慢活慶生之旅" },
+    "startDate": "2026-01-13",
+    "endDate": "2026-01-16",
     "cities": [
       {
         "id": "shanghai",
@@ -9,108 +12,140 @@
           {
             "id": "day-1",
             "date": "2026-01-13",
-            "title": { "en": "Arrival & Bund Night View", "zh": "抵達上海與外灘夜色" },
+            "title": { "en": "Arrival & Bund Fairy Tale Route", "zh": "抵達與外灘神仙路線" },
             "locations": [
               {
                 "id": "flight-9C8716",
-                "name": { "en": "Spring Airlines 9C8716 (Arr)", "zh": "春秋航空 9C8716 (抵達)" },
-                "image": "https://images.unsplash.com/photo-1590253502501-8258498d1b11?auto=format&fit=crop&w=800",
+                "name": { "en": "Spring Airlines 9C8716", "zh": "春秋航空 9C8716" },
+                "image": "https://images.unsplash.com/photo-1542296332-2e4473faf563?auto=format&fit=crop&w=800",
                 "category": "transport",
-                "notes": {
-                  "en": ["HKG-PVG 13:15-15:45", "Terminal: PVG T2", "No checked baggage allowance"],
-                  "zh": ["香港-上海 13:15-15:45", "航廈：浦東 T2", "無免費託運行李限額"]
-                }
+                "tags": ["✈️", "T2"],
+                "notes": { "zh": ["建議 11:15 AM 前到達香港 T1", "無免費託運行李"] }
+              },
+              {
+                "id": "hotel-elegant",
+                "name": { "en": "The Bund Elegant Hotel", "zh": "上海外灘雅致酒店" },
+                "image": "https://ak-d.tripcdn.com/images/020231200093rvd3233EC_Z_320_220_R5_D.webp?auto=format&fit=crop&w=800",
+                "category": "hotel",
+                "tags": ["🏨", "Stay"],
+                "notes": { "zh": ["寧波路靠近四川中路", "放下行李後開始神仙路線"] }
+              },
+              {
+                "id": "waitanyuan-route",
+                "name": { "en": "Waitanyuan & Beijing East Rd", "zh": "外灘源與北京東路" },
+                "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/%E6%B2%99%E7%BE%8E%E5%A4%A7%E6%A5%BC%C2%B7%E4%B8%8A%E6%B5%B7.jpg?auto=format&fit=crop&w=800",
+                "category": "landmark",
+                "tags": ["📸", "View"],
+                "notes": { "zh": ["路線：外灘源 -> 沙美大樓 -> 北京東路", "北京東路正對東方明珠"], "en": ["Route: Waitanyuan -> Shamu Tower -> Beijing East Rd", "Beijing East Rd is facing the East Temple", "Waitanyuan (外灘源): The 'origin of the Bund', featuring the city's oldest Western-style buildings and lush gardens.", "Somekh Building (沙美大樓): Famous for its stunning balconies and nostalgic cupola, offering a glimpse into 1920s luxury.", "Beijing East Road (北京東路): A street blending historic hardware trade heritage with gritty, cinematic urban aesthetics."]  }
+              },
+              {
+                "id": "lujiazui-ferry",
+                "name": { "en": "Bund Ferry to Lujiazui", "zh": "金陵東路輪渡" },
+                "image": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&w=800",
+                "category": "transport",
+                "tags": ["🚢", "2RMB"],
+                "notes": { "zh": ["江面上拍兩岸景色最美", "下船後尋找地面指定打卡位"] }
               },
               {
                 "id": "lujiazui-ifc",
-                "name": { "en": "Lujiazui & IFC Mall", "zh": "陸家嘴與國金中心" },
-                "image": "https://images.unsplash.com/photo-1525625232717-121ad3146cc0?auto=format&fit=crop&w=800",
+                "name": { "en": "IFC Mall & Three-piece Set", "zh": "國金中心與三件套" },
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Shanghai_Tower_with_IFC_North_and_South_Towers.jpg/500px-Shanghai_Tower_with_IFC_North_and_South_Towers.jpg?auto=format&fit=crop&w=800",
                 "category": "landmark",
-                "notes": {
-                  "en": ["Take photos of 'The Three-piece Set'", "IFC Mall for luxury shopping"],
-                  "zh": ["打卡魔都三件套", "國金中心門口金色燈光牆拍照很出片"]
-                }
-              },
-              {
-                "id": "zhapu-road-bridge",
-                "name": { "en": "Zhapu Road Bridge", "zh": "乍浦路橋 (外灘最佳拍攝點)" },
-                "image": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&w=800",
-                "category": "attraction",
-                "notes": {
-                  "en": ["Best spot for Bund night view", "Classic photography angle"],
-                  "zh": ["拍攝外灘與陸家嘴同框的最佳機位", "路線：乍浦路橋 → 外白渡橋 → 外灘"]
-                }
+                "tags": ["🏙️", "📸"],
+                "notes": { "zh": ["上海国际金融中心Shanghai IFC", "ifc 2樓外圍扶手電梯向上拍", "買 gluglu 焦糖蛋撻與阿嬤手作"] }
               }
             ]
           },
           {
             "id": "day-2",
             "date": "2026-01-14",
-            "title": { "en": "Citywalk: French Concession Vibe", "zh": "梧桐區漫步：法式風情" },
+            "title": { "en": "Poetry & North Bund", "zh": "詩歌漫步與北外灘" },
             "locations": [
               {
-                "id": "anfu-road",
-                "name": { "en": "Anfu Road & Wulumuqi Rd", "zh": "安福路與烏魯木齊中路" },
-                "image": "https://images.unsplash.com/photo-1635334698573-04746366df65?auto=format&fit=crop&w=800",
+                "id": "sinan-poetry",
+                "name": { "en": "Sinan Books Poetry Shop", "zh": "思南書局詩歌店" },
+                "image": "https://wowlavie-aws.hmgcdn.com/files/article/a1/17551/atl_m_200017551_854.jpg?auto=format&fit=crop&w=800",
                 "category": "attraction",
-                "notes": {
-                  "en": ["Lots of niche cafes and bakeries", "BM, Sunflour are here"],
-                  "zh": ["濃郁的老上海風與文藝感", "有超多網紅咖啡店與麵包店"]
-                }
+                "tags": ["📚", "⛪"],
+                "notes": { "zh": ["老教堂改造的書店", "上海市黃浦區皋蘭路16號 ", "擅長打造魔幻現實場景的中國建築團隊Wutopia Lab又有新作品！Wutopia Lab以「Church in church」（教堂中的教堂）為概念，在中國的歷史建築聖尼古拉斯教堂（St. Nicholas Church）舊址內以鋼鐵為媒材打造全上海最大的詩歌書店「思南書局詩歌店」。該書店共容納1,000冊不同語言的詩集，且整體設計風格依然延續團隊一貫對稱的魔幻現實風格，讓光線透過穿孔鋼板戲劇性地射入室內，建築風格磅礡卻也同時展現出唯美的詩意。"] }
               },
               {
-                "id": "jingan-temple",
-                "name": { "en": "Jing'an Temple", "zh": "靜安寺" },
-                "image": "https://images.unsplash.com/photo-1543097692-fa13c6cd8595?auto=format&fit=crop&w=800",
-                "category": "landmark",
-                "notes": {
-                  "en": ["Ancient temple in modern city", "Golden architecture"],
-                  "zh": ["千年古剎與現代都市完美融合", "靜安區拍照地標"]
-                }
+                "id": "yang-shengjian",
+                "name": { "en": "Yang's Dumplings", "zh": "小楊生煎" },
+                "image": "https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?auto=format&fit=crop&w=800",
+                "category": "restaurant",
+                "tags": ["🥟", "Local"],
+                "notes": { "zh": ["平價上海必吃", "焦香酥脆的小籠生煎"] }
+              },
+              {
+                "id": "manna-coffee",
+                "name": { "en": "Manner Coffee", "zh": "Manner Coffee（北外灘來福士西塔大堂店）" },
+                "image": "https://nephele.trip.com/target/1me0z12000r1nzv6eF88A_C_760_506_R5.jpg?auto=format&fit=crop&w=800",
+                "category": "restaurant",
+                "tags": ["☕", "🏙️"],
+                "notes": { "zh": ["東大名路999號（OW）01層04號", "無遮擋東方明珠海景", "喝杯咖啡享受慢活時間"] }
+              },
+              {
+                "id": "bigoffs",
+                "name": { "en": "Bigoffs Outlet", "zh": "Bigoffs 折扣店" },
+                "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800",
+                "category": "shopping",
+                "tags": ["🛍️", "Outlet"],
+                "notes": { "zh": ["男朋友最愛的平價名牌掃貨點"] }
               }
             ]
           },
           {
             "id": "day-3",
             "date": "2026-01-15",
-            "title": { "en": "Birthday: Old Town & Snack Tour", "zh": "生日：老城廂與點心之旅" },
+            "title": { "en": "Birthday: Romance & W Hotel", "zh": "生日：浪漫與 W Hotel" },
             "locations": [
               {
-                "id": "sinan-mansions",
-                "name": { "en": "Sinan Road & Mansions", "zh": "思南路與思南公館" },
-                "image": "https://images.unsplash.com/photo-1548919973-5cdf5916ad74?auto=format&fit=crop&w=800",
-                "category": "landmark",
-                "notes": {
-                  "en": ["Historic villas", "Romantic and quiet walk"],
-                  "zh": ["51棟歷史悠久的花園洋房", "體驗『建築可閱讀』，慶生氛圍感極佳"]
-                }
+                "id": "qian-gu-qing",
+                "name": { "en": "Thousand Autumns Show", "zh": "上海千古情" },
+                "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800",
+                "category": "attraction",
+                "tags": ["🎭", "Show"],
+                "notes": { "zh": ["沉浸式大秀，慶生絕佳活動"] }
               },
               {
-                "id": "snack-tour",
-                "name": { "en": "Butterfly Pastries & Ah Ma", "zh": "蝴蝶酥與阿嬤手作" },
-                "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800",
+                "id": "butterfly-pastry",
+                "name": { "en": "Park Hotel Butterfly Pastry", "zh": "國際飯店蝴蝶酥" },
+                "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800",
                 "category": "snack",
-                "notes": {
-                  "en": ["Park Hotel Butterfly Pastry", "Ah Ma Mochi Ice Cream"],
-                  "zh": ["國際飯店蝴蝶酥 (南京西路)", "阿嬤手作：酒釀米麻薯雪糕 (iapm)"]
-                }
+                "tags": ["🥐", "Gift"],
+                "notes": { "zh": ["提早在小紅書預訂直送酒店", "省去 2 小時排隊時間"] }
+              },
+              {
+                "id": "w-hotel-liquid",
+                "name": { "en": "W Hotel Liquid Bar", "zh": "W 酒店 Liquid Bar" },
+                "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800",
+                "category": "bar",
+                "tags": ["🍸", "Night"],
+                "notes": { "zh": ["慶生最後一站", "打卡 W 標誌性夜景"] }
               }
             ]
           },
           {
             "id": "day-4",
             "date": "2026-01-16",
-            "title": { "en": "Departure", "zh": "返程回港" },
+            "title": { "en": "Breakfast & Return", "zh": "生煎早餐與返程" },
             "locations": [
               {
-                "id": "flight-CX317",
-                "name": { "en": "Cathay Pacific CX317 (Dep)", "zh": "國泰航空 CX317 (出發)" },
+                "id": "dahuchun",
+                "name": { "en": "Da Hu Chun Buns", "zh": "大壺春生煎" },
+                "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=800",
+                "category": "restaurant",
+                "tags": ["🥟", "Breakfast"],
+                "notes": { "zh": ["酒店附近的米其林推薦早餐"] }
+              },
+              {
+                "id": "flight-cx317",
+                "name": { "en": "Cathay Pacific CX317", "zh": "國泰航空 CX317" },
                 "image": "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800",
                 "category": "transport",
-                "notes": {
-                  "en": ["PVG-HKG 12:50-15:55", "Terminal: PVG T2", "Airbus A350 Widebody"],
-                  "zh": ["上海-香港 12:50-15:55", "航廈：浦東 T2", "空中巴士 A350 廣體機"]
-                }
+                "tags": ["✈️", "Return"],
+                "notes": { "zh": ["12:50 起飛，10:50 到達機場 T2", "A350 廣體客機"] }
               }
             ]
           }

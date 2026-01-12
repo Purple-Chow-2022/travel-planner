@@ -21,7 +21,7 @@ export default function TripOverview({ lang }) {
         {trip.cities.map(city => (
           <Link 
             key={city.id} 
-            to={`/city/${city.id}`} 
+            to={`/city/${city.id}/day/day-1`}
             className="block p-4 border rounded-xl hover:bg-gray-50 transition-colors"
           >
             {/* Notice the [lang] here */}
